@@ -1,0 +1,4 @@
+# Enable case-insensitive autocomplete
+# Put in e.g. a .profile or .bash-rc config file
+bind "set show-all-if-ambiguous On"
+bind "set completion-ignore-case On"

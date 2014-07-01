@@ -1,0 +1,26 @@
+/*
+ * Basic styling of `button` elements
+ * http://covertprestige.info/css/button-basic/
+ */
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background: none;
+  /* IE7 fix */
+  overflow: visible;
+}
+/* Firefox fix - bug 140562
+   We're using :-moz-focusring rather than :focus so that we don't
+   change the default focus in other browsers.
+*/
+button::-moz-focus-inner {
+  padding: 0;
+  border: none;
+}
+button:-moz-focusring {
+  outline: 1px dotted;
+}

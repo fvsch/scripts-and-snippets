@@ -1,0 +1,2 @@
+# Recursively remove folders with name 'x'
+find . -type d -name 'x' -exec rm -rf {} \;

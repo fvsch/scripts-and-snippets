@@ -1,0 +1,21 @@
+/**
+ * Hide empty cells in TABLE
+ *
+ * https://developer.mozilla.org/en/CSS/empty-cells
+ * Syntax = empty-cells: show | hide | inherit
+ *
+ * @table
+ * @css21
+ *
+ * TODO: I think @goetter used an :empty pseudo-class
+ * at some point. Check out the specs.
+ */
+
+td, th {
+  empty-cells: hide;
+}
+
+/* Variant: hide for first cell in row */
+td:first-child, th:first-child {
+  empty-cells: hide;
+}

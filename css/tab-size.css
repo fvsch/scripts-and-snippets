@@ -1,0 +1,11 @@
+/*
+ * Modifying the size of the tab (U+0009) character in CSS
+ * Spec: http://www.w3.org/TR/css3-text/#tab-size
+ * Doc: https://developer.mozilla.org/en/CSS/-moz-tab-size
+ */
+
+pre {
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+}
