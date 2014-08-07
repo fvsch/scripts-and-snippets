@@ -1,7 +1,7 @@
 /*
 
   VERY HACKISH SCRIPT TO DELETE MOST OF YOUR ACTIVITY ON FACEBOOK
-  Usage: see delete-posts.md
+  Usage: see README.md
 
 */
 
